@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    position: relative;
+    display: flex;
+
+    
+    width: 100%;
+    height: 100vh;
+    
+    padding: 20px;
+    
+    max-width: max-content;
+    align-items: center; 
+    justify-content: right; 
+}
+
+/* Styling for the phone container */
+.phone {
+    display: block;
+    align-items: center; 
+    justify-content: center; 
+    width: 350px;
+    height: max-content;
+    padding: 0; 
+    margin: 1rem; 
+}
+
+/* Styling for the image */
+.image {
+    
+    max-width: 100%; /* Ensure the image fits within its container */
+}
+
+/* Styling for the login container */
+.login-container {
+    display: flex;
+    flex-direction: column; /* Arrange children in a column */
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+}
+
+.login{
+    width: 300px;
+    height: 360px;
+    border: 0.20px solid #737373;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+.login img {
+    max-width: 100%;
+    height: auto;
+
+    margin: 25px;
+}
+.login-field{
+    position: relative;
+    position: relative;
+}
+.login-field input{
+    border: 0.25px solid #737373;
+    border-radius: 3px;
+    width: 280px;
+    padding: 10px;
+    font-size: 13px;
+    margin-top: 10px;
+    display: flex;
+    outline:none;
+    background-color: rgba(225, 225, 225, 0.245);
+    transition: border-color 0.3s;
+
+}
+.login-field input::placeholder{
+    color: rgba(56, 56, 56, 0.379);
+}
+.login-field input:hover{
+    background-color: rgba(240, 248, 255, 0.524);
+}
+.login-field input:focus{
+    color: #000000aa;                
+    background-color: #fff;     
+    border: 0.50px solid #000;
+           
+    cursor: text; 
+}
+.login button{
+    position: relative;
+    max-width: 100%;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    border: transparent ;
+    background-color: rgb(69, 166, 251);
+    margin-top: 20px;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+}
+.login button:hover{
+    background-color: rgb(27, 146, 251);
+    font-weight: bolder;
+    cursor:pointer;
+}
+
+.or-line {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.or-line.line{
+    
+    width: 50px;
+    border: 0;
+    border-top: 1px solid black;
+}
+.or-line span {
+    padding: 0 10px; /* Space around the OR text */
+    font-weight: bold;
+    color: #333;
+}
+.additional-info {
+    margin-top: 15px; /* Space between the OR divider and additional info */
+    text-align: center; /* Center the additional info text */
+}
+
+.additional-info p {
+    margin: 5px 0; /* Space between paragraphs */
+}
+
+.additional-info a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.additional-info a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+#fontlogo {
+    width: 175px;
+}
+.no-account {
+    width: 100%;
+    max-width: 320px; /* Maximum width of the small container */
+    background-color: #fff; /* White background */
+    padding: 10px;
+    border: 0.25px solid grey;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #737373;
+    margin-top: 20px; /* Space above the small container */
+    text-align: center; /* Center text inside the small container */
+}
+.additional-info p{
+    color: navy;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+}
+#signup {
+    font-size: 10px;
+}
